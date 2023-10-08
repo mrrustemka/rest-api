@@ -11,4 +11,4 @@ export type NewPostData = {
 
 export type SavedPostData = {
   id: number;
-}
+};
