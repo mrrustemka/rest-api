@@ -1,7 +1,7 @@
-import { PostPage } from "./posts/PostPage";
+import { PostsPage } from "./posts/PostPage";
 
 function App() {
-  return <PostPage />;
+  return <PostsPage />;
 }
 
 export default App;
