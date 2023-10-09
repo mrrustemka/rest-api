@@ -9,7 +9,7 @@ export async function savePost(newPostData: NewPostData) {
   const body = (await response.json()) as unknown;
   assertIsSavedPost(body);
   return { ...newPostData, ...body };
-}
+} 
 
 function assertIsSavedPost(post: any): asserts post is SavedPostData {
   if (!("id" in post)) {
